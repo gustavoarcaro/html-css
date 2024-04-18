@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, #0094C6, #001242);
+    background-attachment: fixed;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1#basico {
+    color: #DCDCDD;
+}
+
+h2#basico {
+    color: #DCDCDD;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: red
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+p {
+    color: #EFF2F1;
+    text-align: justify; 
+}
+
+.texto {
+     text-align: left;
+}
+
+h2#bolsonaro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 160px;
+}
+
+
