@@ -6,13 +6,25 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
-            height: 500px;
+            position: relative;
+            height: 98vh;
             background-color: purple;
+            padding: 10px;
+            
+            
         }
 
         #conteudo {
+            position: absolute;
             height: 200px;
             background-color: yellow;
+            width: 400px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+            
 
         }
     </style>
@@ -20,6 +32,7 @@
 <body>
     <section id="container">
         <article id="conteudo">
+            
             
 
 
